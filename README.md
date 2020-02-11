@@ -1,4 +1,5 @@
-# storybook-render-function
+# Storybook with Vue
+A place to test Storybook Vue problems without the extra dependencies of our real world projects.
 
 ## Project setup
 ```
@@ -7,18 +8,5 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run storybook:serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
