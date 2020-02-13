@@ -2,16 +2,26 @@
   <button class="button is-primary" @click="onClick">
     <!-- Hello -->
     <slot />
+    {{ content }}
   </button>
 </template>
 
 <script>
 export default {
   name: 'my-button',
-
   methods: {
     onClick() {
       this.$emit('click')
+    }
+  },
+  computed: {
+    content() {
+      if (this.$slots.default) {
+        this.$slots.default.forEach(() => {
+          console.log('foo');
+        })
+      }
+      return 'foo';
     }
   }
 }

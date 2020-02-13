@@ -14,8 +14,8 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@storybook/addon-docs": "^5.3.12",
-    "@storybook/vue": "^5.3.12",
+    "@storybook/addon-docs": "^5.3.13",
+    "@storybook/vue": "^5.3.13",
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
